@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/casinoPage/static/css/main.dc6d7574.css",
+    "main.js": "/casinoPage/static/js/main.7f7b53aa.js",
+    "static/js/453.45297a17.chunk.js": "/casinoPage/static/js/453.45297a17.chunk.js",
+    "static/media/header_casino_desktop4.jpg": "/casinoPage/static/media/header_casino_desktop4.1d75de9e24775580d4da.jpg",
+    "static/media/96in.png": "/casinoPage/static/media/96in.cd299a04f2cad5e81704.png",
+    "static/media/luckyniki.png": "/casinoPage/static/media/luckyniki.df7ec9e67ffb987aa34e.png",
+    "static/media/rajbet.png": "/casinoPage/static/media/rajbet.c94219e86ebf28382008.png",
+    "static/media/casino_mobile_main.jpg": "/casinoPage/static/media/casino_mobile_main.67e9b26843355e32378d.jpg",
+    "static/media/bigboost.png": "/casinoPage/static/media/bigboost.c97b266fd0c9e882c055.png",
+    "static/media/maharajaFortune.png": "/casinoPage/static/media/maharajaFortune.083dea421af024e84029.png",
+    "static/media/bonusribbon.png": "/casinoPage/static/media/bonusribbon.a11a664aae5cec346dd6.png",
+    "static/media/casinoDays.png": "/casinoPage/static/media/casinoDays.66bf25197267943fceb7.png",
+    "static/media/winningkings.png": "/casinoPage/static/media/winningkings.3b9141e04bc99f2cd1cf.png",
+    "static/media/lucky7.png": "/casinoPage/static/media/lucky7.adb8af13e016d1f091ca.png",
+    "static/media/tick-legal.png": "/casinoPage/static/media/tick-legal.f9d780d7fb7dbc72bcb7.png",
+    "static/media/freespins.png": "/casinoPage/static/media/freespins.383d57af8eceaa689ddc.png",
+    "static/media/flag-in.png": "/casinoPage/static/media/flag-in.e6ff4f09a77874cb5a37.png",
+    "index.html": "/casinoPage/index.html",
+    "main.dc6d7574.css.map": "/casinoPage/static/css/main.dc6d7574.css.map",
+    "main.7f7b53aa.js.map": "/casinoPage/static/js/main.7f7b53aa.js.map",
+    "453.45297a17.chunk.js.map": "/casinoPage/static/js/453.45297a17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc6d7574.css",
+    "static/js/main.7f7b53aa.js"
+  ]
+}
