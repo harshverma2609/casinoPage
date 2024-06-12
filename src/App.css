@@ -1,0 +1,535 @@
+*{
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body{
+  background-image: url(./components/Images/header_casino_desktop4.jpg);
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+.heading{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+.heading > h1{
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+.heading > p{
+  padding: 0.5rem 7rem;
+}
+.bonusUpdate{
+  display: flex;
+  padding: 1rem;
+}
+#time{
+  padding-left: 0.5rem;
+  font-weight: bolder;
+  color: #ff856c;  
+}
+
+.heading2{
+  display: none;
+}
+
+.box{
+  background-color: whitesmoke;
+  padding-top: 2rem;
+}
+.EndOfPage{
+  box-sizing: border-box;
+  box-shadow: 0 0 1rem rgba(160,166,168,0.35);
+  background-color: rgba(255,255,255,1);
+  border-radius: 1rem;
+  margin: 1rem 3rem;
+  padding: 3rem;
+  padding-bottom: 1rem;
+}
+.EndOfPage > p{
+  padding: 0.5rem 0;
+}
+.images{
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  height: 4rem;
+}
+footer{
+  color: #c9caca;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.content{
+  padding: 0 1rem;
+  margin: 0 7rem;
+}
+.featureBar{
+  color: white;
+  display: flex;
+}
+.featureBar > p{
+  font-size: small;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.featureBar > p > img{
+  padding: 0.2rem;
+  height: 1.5rem;
+}
+.bar{
+  color: white;
+  background-color: black;
+  padding: 0.8rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.casinos{
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+  margin: 0.5rem 0;
+  border-radius: 0.3rem;
+}
+.sites{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sites > a{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#casinoLogo{
+  width: 100%;
+  position: relative;
+  left: 2rem;
+}
+.triangle{
+  display: flex;
+}
+#triangle1{
+	border-top: 3.5rem solid transparent;
+	border-left: 1.5rem solid #000000;
+	border-bottom: 3.5rem solid transparent;
+  position: relative;
+  left: 4.5rem;
+}
+#triangle2{
+	border-top: 3.5rem solid transparent;
+	border-left: 1.5rem solid #fff;
+	border-bottom: 3.5rem solid transparent;
+  position: relative;
+  left: 2.7rem;
+}
+#triangle3{
+	border-top: 3.5rem solid transparent;
+	border-left: 1.5rem solid #000000;
+	border-bottom: 3.5rem solid transparent;
+  position: relative;
+  left: 0.9rem;
+}
+.bonus{
+  text-align: center;
+  align-content: center;
+  font-weight: 300;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+#bigBonus{
+  font-size: 2rem;
+}
+.legal{
+  font-size: 0.7rem;
+  padding-top: 0.5rem;
+  color: #818a97;
+  text-transform: uppercase;
+}
+.legal:hover{
+  color: #12a4eb;
+  cursor: pointer;
+}
+.rating{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rating > img{
+  height: 1.5rem;
+}
+.rating > p{
+  font-size: 3rem;
+  font-weight: 500;
+}
+hr{
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transform: rotate(90deg);
+}
+.playNow{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.playNow > a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+#getBonus{
+  background-color: #83cd00;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 2.5rem;
+  width: 80%;
+  border-radius: 0.2rem;
+  border: 0.2rem solid #fff;
+}
+#getBonus:hover{
+  background-color: #a2ff00;
+  cursor: pointer;
+}
+#getBonus > span:hover{
+  font-size: large;
+  transition: all linear 0.5s;
+}
+.playNow > a > p{
+  color: black;
+  font-weight: 300;
+  font-size: small;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+}
+.playNow > a > p:hover{
+  color: #12a4eb;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .heading2{
+    display: none;
+  }
+
+  .content{
+    padding: 0 1rem;
+    margin: 0 6rem;
+  }
+  .bonus{
+    font-size: 0.8rem;
+  }
+  #bigBonus{
+    font-size: 1.8rem;
+  }
+  .sites{
+    width: 95%;
+  }
+  .rating > p{
+    font-size: 2.7rem;
+  }
+  #triangle1{
+    left: 4.1rem;
+  }
+  #triangle2{
+    left: 2.3rem;
+  }
+  #triangle3{
+    left: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .heading2{
+    display: none;
+  }
+
+  .heading > p{
+    padding: 0.5rem 2.5rem;
+  }
+  .EndOfPage > p{
+    font-size: small;
+  }
+  .images{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 3rem;
+  }
+  .bonus{
+    font-size: 0.7rem;
+    align-content: center;
+  }
+  #bigBonus{
+    font-size: 1.6rem;
+  }
+  .rating > p, hr{
+    display: none;
+  }
+  .content{
+    padding: 0 1rem;
+    margin: 0 5rem;
+  }
+  .casinos, .bar{
+    grid-template-columns: 1.1fr 1.5fr 0.8fr 1fr;
+  }
+  .playNow > a > p{
+    font-size: smaller;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px)  {
+  .heading, .bar, .triangle, hr{
+    display: none;
+  }
+
+  body{
+    background-image: none;
+  }
+  .heading2{
+    display: block;
+    background-image: url("./components/Images/casino_mobile_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem;
+    padding-bottom: 0.5rem;
+  }
+  .heading2 > h4{
+    color: #ffc600;
+  }
+
+  .box{
+    background-color: whitesmoke;
+    padding-top: 1rem;
+  }
+  .EndOfPage{
+    margin: 1rem 2rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
+  }
+  .images{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile > img{
+    height: 4rem;
+  }
+
+  .content{
+    background-image: url("./components/Images/casino_mobile_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+  .featureBar > p{
+    font-size: x-small;
+  }  
+  .casinos{
+    grid-template-columns: 1fr 1fr;
+  }
+  .sites{
+    background-color: #192024;
+    padding-top: 2rem;
+  }
+  .sites > a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  #casinoLogo{
+    width: 60%;
+    left: 0;
+  }
+  .bonus{
+    background-color: #101010;
+    color: white;
+    padding-top: 2rem;
+  }
+  #bigBonus{
+    font-size: 1.5rem;
+  }
+  .rating{
+    background-color: #192024;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  .rating > img{
+    height: 1.5rem;
+  }
+  .rating > p{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+  }
+  .playNow{
+    background-color: #101010;
+    padding-bottom: 2rem;
+  }
+  .playNow > a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+  }  
+  #getBonus{
+    font-size: 1rem;
+    width: 80%;
+    border-color: black;
+    border-radius: 2rem;
+    color: #000000;
+  }
+  .playNow > a > p{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px)  {
+  .heading, .bar, .triangle, hr{
+    display: none;
+  }
+
+  body{
+    background-image: none;
+  }
+  .heading2{
+    display: block;
+    background-image: url("./components/Images/casino_mobile_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5rem 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .heading2 > h4{
+    color: #ffc600;
+  }
+
+  .box{
+    background-color: whitesmoke;
+    padding-top: 1rem;
+  }
+  .EndOfPage{
+    margin: 1rem 2rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
+  }
+  .EndOfPage > p{
+    font-size: small;
+    padding: 0.5rem 0;
+  }
+  .images{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile{
+    grid-template-columns:  1fr 1fr 1fr;
+  }
+  .mobile > img{
+    height: 3rem;
+  }
+
+  .content{
+    background-image: url("./components/Images/casino_mobile_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+  .featureBar > p{
+    font-size: x-small;
+  }  
+  .casinos{
+    grid-template-columns: 1fr 1fr;
+  }
+  .sites{
+    background-color: #192024;
+    padding-top: 1rem;
+  }
+  .sites > a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  #casinoLogo{
+    width: 60%;
+    left: 0;
+  }
+  .bonus{
+    background-color: #101010;
+    color: white;
+    padding-top: 1rem;
+  }
+  #bigBonus{
+    font-size: 1.5rem;
+  }
+  .rating{
+    background-color: #192024;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  .rating > img{
+    height: 1.5rem;
+  }
+  .rating > p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+  }
+  .playNow{
+    background-color: #101010;
+    padding-bottom: 1rem;
+  }
+  .playNow > a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;  
+    width: 100%;
+  }  
+  #getBonus{
+    font-size: 1rem;
+    width: 80%;
+    border-color: black;
+    border-radius: 2rem;
+    color: #000000;
+  }
+  .playNow > a > p{
+    display: none;
+  }
+}
